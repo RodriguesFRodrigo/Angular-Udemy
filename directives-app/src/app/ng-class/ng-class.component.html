@@ -1,0 +1,20 @@
+<mat-card>
+    <mat-card-title>
+        Select
+    </mat-card-title>
+    <mat-card-content>
+        Please, select one class:
+        <mat-form-field>
+            <!-- ngModel vincula o valor a propriedade da classe. -->
+            <mat-select placeholder="Choose the Class:" [(ngModel)]="myClass" name="my">
+                <mat-option value="classe0">Class 0</mat-option>
+                <mat-option value="classe1">Class 1</mat-option>
+                <mat-option value="classe2">Class 2</mat-option>
+            </mat-select>
+        </mat-form-field>
+    </mat-card-content>
+    <!-- ngClass permite modificar classes de estilos de um elemento.-->
+    <mat-card-footer>
+        <p [ngClass]="myClass">SC Internacional 1 x 0 Metropolitanos F.C.</p>
+    </mat-card-footer>
+</mat-card>

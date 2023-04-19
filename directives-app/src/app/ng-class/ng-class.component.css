@@ -1,0 +1,22 @@
+mat-card {
+    margin: 40px;
+    padding: 40px;
+}
+
+.classe0 {
+    color: white;
+    background-color: red;
+    padding: 16px;
+}
+
+.classe1 {
+    color: red;
+    background-color: white;
+    padding: 16px;
+}
+
+.classe2 {
+    color: black;
+    background-color: orange;
+    padding: 16px;
+}
